@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ_WordToPdf.Producer", "RabbitMQ_WordToPdf.Producer\RabbitMQ_WordToPdf.Producer.csproj", "{EEA40656-1FF2-441B-9C76-33FB8E728083}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ_WordToPdf.Producer", "RabbitMQ_WordToPdf.Producer\RabbitMQ_WordToPdf.Producer.csproj", "{EEA40656-1FF2-441B-9C76-33FB8E728083}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ_WordToPdf.Consumer", "RabbitMQ_WordToPdf.Consumer\RabbitMQ_WordToPdf.Consumer.csproj", "{691BE14E-05FD-4352-A4FD-C72A248B00D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{EEA40656-1FF2-441B-9C76-33FB8E728083}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEA40656-1FF2-441B-9C76-33FB8E728083}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEA40656-1FF2-441B-9C76-33FB8E728083}.Release|Any CPU.Build.0 = Release|Any CPU
+		{691BE14E-05FD-4352-A4FD-C72A248B00D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{691BE14E-05FD-4352-A4FD-C72A248B00D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{691BE14E-05FD-4352-A4FD-C72A248B00D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{691BE14E-05FD-4352-A4FD-C72A248B00D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
